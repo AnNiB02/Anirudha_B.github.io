@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anirudha_Bhalshankar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/27377525d6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <img src="images/logo1.png" class="logo" width="100px">
+        <ul id="sidebar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#services">My Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header" id="home">
+        <div class="container">
+            <div class="headername">
+                <!-- <img src="images/user3.png" class="user3" width="500px" > -->
+                <p>Front-End Developer</p>
+                <h1>Hello!! I am
+                    <div class="waviy">
+                        <span style="--i:1">A</span>
+                        <span style="--i:2">N</span>
+                        <span style="--i:3">I</span>
+                        <span style="--i:4">R</span>
+                        <span style="--i:5">U</span>
+                        <span style="--i:6">D</span>
+                        <span style="--i:7">H</span>
+                        <span style="--i:8">A</span>
+                    </div>
+                    Bhalshankar
+                </h1>
+            </div>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col1">
+                    <img src="images/user2.png" border="white">
+                </div>
+                <div class="col2">
+                    <h1 class="sub">About Me</h1>
+                    <div class="intro">
+                        <p> I am Anirudha Bhalshankar , an Electrical undergraduate student at IIT Bhubaneshwar. Started
+                            my coding journey not with a printf("Hello World!") but with a "< h1>Hello World< /h1>". I
+                                    am
+                                    beginner who wishes to learn new things on his way. Not much talented but a diligent
+                                    student. Also an E-gaming enthusiast. You can call me a Developer, as the world full
+                                    of
+                                    developments will never stop and will keep improving itself untill end.
+                        </p>
+                    </div>
+                    <div class="titles">
+                        <p class="tab-links active-tab" id="tab" onmouseover="opentab('skills')">Skills</p>
+                        <p class="tab-links" id="tab" onmouseover="opentab('experince')">Experinces</p>
+                        <p class="tab-links" id="tab" onmouseover="opentab('education')">Education</p>
+                        <p class="tab-links" id="tab" onmouseover="opentab('projects')">Projects</p>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>Web Developement</span><br>HTML, CSS, JavaScript</li>
+                            <li><span>SQL Database</span><br>mySQL</li>
+                            <li><span>Competitive Programmer</span><br>C++, C, Python</li>
+                            <li><span>Video Editing</span><br>Adobe Premiere Pro, Imovie(macOS), Adobe After Effects
+                            </li>
+                            <li><span>Event Management</span><br>Associated with Alma Fiesta</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experince">
+                        <ul>
+                            <li><span>Alma Fiesta-The Sociocultural Fest</span><br>Core Team Leader<br><br>• Was core
+                                team
+                                leader of the Web Development Team, learned about GitHub and NodeJS
+                                (elementary). <br>• Helped teammates to build the front end of the Alma Fiesta 2022
+                                Website. <br>
+                                • Guided associates to work and manage the fest events. <br>
+                                • Link to website : <a href="https://2022.almafiesta.com/">Alma Fiesta 2022</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-Current</span><br>IIT Bhubaneshwar(Expected Grad-2024)</li>
+                            <li><span>2018-2020</span><br>Blossom Public School (92%)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>2022</span><br>Portfolio Website</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =---------------------services ---------------------------->
+
+    <div class="services" id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <di class="servicelist">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>As of now, I am a Front-End Developer. I am familiar with HTML, CSS and Javascript. I have done
+                        minor projects on CSS and HTML. And still learing more to work more efficiently on various other
+                        projects.</p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+                <div>
+                    <i class="fa-solid fa-photo-film"></i>
+                    <h2>Video Editing</h2>
+                    <p>Learned about video editing softwares such as Abode Premiere Pro and Abobe Affter Effects. Ready
+                        to edit the world full of colors and motion.</p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+                <!-- <div>
+                    <i class="fa-solid fa-mobile-screen"></i>
+                    <h2>App Developement</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime vel labore assumenda mollitia
+                        fugiat aspernatur corporis earum saepe ducimus eligendi, enim ipsam. Architecto quaerat debitis
+                        nihil, quia officiis eveniet nemo?</p>
+                    <!-- <a href="#">Learn More</a> -->
+        </div> -->
+        </di>
+    </div>
+    </div>
+
+    <!-- ------------------my work------------------- -->
+
+    <div class="experince">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="images/work1.png">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>This is my first project in this field. I coded this website from scratch without any use of
+                            Bootstrap codes. This website is fully responsive in any device. It stores the data filled
+                            in the contact form. I have used simple HTML,CSS and Javascript to make this website. Hope
+                            you like it and I will keep trying to change the outlook and functionality of the website
+                            more efficiently.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work2.jpg">
+                    <div class="layer">
+                        <h3>On The Way !!</h3>
+                        <p>Working on it!!!! Shhhhhh 🤫!!!!
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ---------------------contact-------------------- -->
+    <div class="contacts" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>anirudha.a.bhalshankar02@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>91+9822509996</p>
+                    <div class="contact-icons">
+                        <a href="https://www.linkedin.com/in/anirudha-bhalshankar-516129230" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://wa.me/919822509996" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a
+                            href="https://mail.google.com/mail/?view=cm&fs=1&to=anirudha.a.bhalshankar02@gmail.com&su=SUBJECT&body=&bcc=anirudha.a.bhalshankar02@gmail.com"><i
+                                class="fa-solid fa-envelope"></i></a>
+                        <a href="https://twitter.com/Anirudha_B26" target="_blank"><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <a href="tel:91+982250996"" target=" _blank"><i class="fa-solid fa-phone"></i></a>
+                    </div>
+                    <div class="resumebutton" id="resume"><a href="images/Anirudha_Bhalshankar.pdf" download
+                            class="btn btn2">Download Resume</a></div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your Mail ID" required>
+                        <input type="number" name="PhoneNumber" placeholder="Your Contact Number" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn1">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright @ Anirudha_Bhalshankar </ p>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-tab");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-content");
+            }
+            event.currentTarget.classList.add("active-tab");
+            document.getElementById(tabname).classList.add("active-content")
+        }
+    </script>
+
+    <script>
+        var side = document.getElementById("sidebar");
+
+        function openmenu() {
+            side.style.right = "0px";
+        }
+
+        function closemenu() {
+            side.style.right = "-150px";
+        }
+
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxncYg5rf_KtlQ29rIBLalGWc92eMgO0b8EUz_vKA72YR29OAYvB6Mb_tUXLUsRTrUc/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Your Message was sent succesfully !"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+    <script>
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("nav");
+            header.classList.toggle("sticky", window.scrollY > 0)
+        })
+    </script>
+
+</body>
+
+</html>
